@@ -75,7 +75,14 @@ body {
   padding: 100px 20px;
   background: linear-gradient(to bottom, #AD7946, #000);
 }
-
+@media (max-width: 600px) {
+  .hero-image {
+    max-width: 75%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  }
+}
 .hero-image {
   max-width: 50%;
   height: auto;
@@ -593,4 +600,5 @@ body.no-scroll {
   .info-image img {
     max-height: 180px;
   }
+
 }
